@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/drawable/background_add.xml" value="0.23333333333333334" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/activity_friends.xml" value="0.1" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/activity_login.xml" value="0.20625" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/activity_main.xml" value="0.165" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/activity_room_chat.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/content_test_navigation.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/fragment_blank.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/fragment_friends.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/fragment_room_chat.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/layout_chat_item.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/layout_dialog_add.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/layout_friend_item.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/layout_menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/layout_room_chat_item.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/layout_room_item.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/layout_slide_menu.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/layout/test.xml" value="0.10739614994934144" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/menu/menu_bottom.xml" value="0.22083333333333333" />
+        <entry key="..\:/CODE/Android/MyIM/app/src/main/res/menu/test_navigation.xml" value="0.22083333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

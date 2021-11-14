@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/JINGLAN">
+<!--在这里写好，再往activity_friends中搬，懒得引用了-->
+    <ImageView
+        android:id="@+id/image_menu_avatar"
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@mipmap/user_circle"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_menu_username"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="username"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_menu_update_username"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="修改用户名"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:backgroundTint="@color/XINGLAN"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/btn_menu_update_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="修改密码"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:backgroundTint="@color/XINGLAN"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btn_menu_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="退出登录"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:backgroundTint="@color/XINGLAN"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

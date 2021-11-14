@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.ChatActivity">
+
+    <RelativeLayout
+        android:id="@+id/hand"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/JINGLAN">
+        <Button
+            android:id="@+id/btn_chat_back"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="@color/white"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/tv_chat_username"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:text="username"/>
+
+        <Button
+            android:id="@+id/btn_chat_delete"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:backgroundTint="@color/white"
+            android:background="@mipmap/friend_delete"
+            android:layout_marginEnd="5dp"
+            />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/hand"
+        android:id="@+id/rcv_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fitsSystemWindows="true"
+      >
+
+        <EditText
+            android:id="@+id/et_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"/>
+
+        <Button
+            android:id="@+id/btn_chat_send"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="send"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</RelativeLayout>

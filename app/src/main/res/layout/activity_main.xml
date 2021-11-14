@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pages.MainActivity">
+
+
+    <com.joey.myim.widget.SlideMenu
+        android:id="@+id/slide_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        侧滑栏-->
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/JINGLAN">
+
+            <ImageView
+                android:id="@+id/image_menu_avatar"
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/user_circle"
+                android:backgroundTint="@color/white"/>
+
+            <TextView
+                android:id="@+id/tv_menu_username"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:text="username"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/btn_menu_update_username"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="修改用户名"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:backgroundTint="@color/XINGLAN"
+                android:layout_marginTop="80dp"/>
+
+            <Button
+                android:id="@+id/btn_menu_update_password"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="修改密码"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:backgroundTint="@color/XINGLAN"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:id="@+id/btn_menu_sign_out"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="退出登录"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:backgroundTint="@color/XINGLAN"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+<!--        主界面-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/JINGLAN">
+
+                <Button
+                    android:id="@+id/btn_drawer"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="10dp"
+                    android:background="@mipmap/menu"
+                    android:backgroundTint="@color/white" />
+
+                <Button
+                    android:id="@+id/btn_add_friend"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:background="@mipmap/img_add"
+                    android:backgroundTint="@color/white" />
+
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/fragment_main"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="11"/>
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/navigation_main_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/black"
+                android:background="@color/white"
+                app:menu="@menu/menu_bottom"
+                android:layout_gravity="bottom"/>
+
+        </LinearLayout>
+
+    </com.joey.myim.widget.SlideMenu>
+
+
+</RelativeLayout>
