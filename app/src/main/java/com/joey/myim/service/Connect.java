@@ -25,9 +25,9 @@ import java.net.InetAddress;
  * 2021年11月6日13点37分：要注意一个点，很多操作，比如添加好友，删除账号，这些操作需要的connection都应该是已经登陆的connection
  */
 public class Connect {
-    public static final String HOST = "118.178.88.199";//服务器公网IP
+    public static final String HOST = "118.***.***.***";//服务器公网IP
     public static final int PORT = 5222;//端口
-    public static final String DOMAIN = "i-bp11sex44qvkoiqip7w5";//服务器主机名
+    public static final String DOMAIN = "***************";//服务器主机名
     public static final String SOURCE = "";//源，可忽略，传输文件时可能需要用到
     private static  XMPPTCPConnection connection = null;
 
